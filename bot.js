@@ -357,4 +357,4 @@ client.on('error', e => {
 });
 
 
-client.login(ayarlar.token);
+process.env.BOT_TOKEN
